@@ -13,7 +13,7 @@ const DenominationItem = props => {
       <button
         type="button"
         className="denomination-button"
-        onClick={this.onClickDenomination}
+        onClick={onClickDenomination}
       >
         {value}
       </button>
