@@ -1,7 +1,7 @@
 import './index.css'
 
 const DenominationItem = props => {
-  const {denominationDetails, updateBalance} = this.props
+  const {denominationDetails, updateBalance} = props
   const {value} = denominationDetails
 
   onClickDenomination = () => {
