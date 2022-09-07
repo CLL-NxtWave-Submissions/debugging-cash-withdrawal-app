@@ -4,7 +4,7 @@ import DenominationItem from '../DenominationItem'
 
 import './index.css'
 
-const CashWithdrawal extends Component {
+class CashWithdrawal extends Component {
   state = {
     balance: 2000,
   }
